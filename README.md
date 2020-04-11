@@ -6,9 +6,9 @@
 - [SoalShiftSISOP20_modul2_D08](#soalshiftsisop20modul2d08)
 	- [Soal 1](#soal-1)
 	- [Soal 4](#soal-4)
-		- [3A](#4a)
-		- [3B](#4b)
-		- [3C](#4c)
+		- [4A](#4a)
+		- [4B](#4b)
+		- [4C](#4c)
 
 ## Soal 4
 ### 4a
