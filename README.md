@@ -49,8 +49,11 @@ pada proses diatas adalah mengambil hasil perkalian elemen matriks dari soal 4a 
 untuk melakukan proses diatas menggunakan rumus penjumlahan aritmatika dan kemudian dicetak
 ### 4c
 -pertama membuat pipe jika hasilnya -1 maka akan gagal membuat pipe.
+
 -membuat anak proses jika hasilnya kurang dari nol maka gagal membuat proses anak
+
 -jika proses anak lebih dari nol maka akan melakukan command list file dan folder
+
 -kemudian melakukan command wc yaitu menghitung jumlah file dan folder 
 		
 	
