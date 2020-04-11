@@ -5,6 +5,7 @@
 05111740000169	MUHAMMAD FARHAN HAYKAL
 - [SoalShiftSISOP20_modul2_D08](#soalshiftsisop20modul2d08)
 	- [Soal 2](#soal-2)
+	- [Soal 3](#soal-3)
 	- [Soal 4](#soal-4)
 		- [4A](#4a)
 		- [4B](#4b)
@@ -29,6 +30,14 @@
 * Lalu saya buat login, jika user memasukkan username dan password dengan benar maka print "Auth Success" dan lanjutkan ke fungsi AfterLogin, Tetapi jika gagal maka print "Auth Failed". Setelah itu tutup kembali databasenya
 * Sisanya saya copy dari template socket
 
+## Soal 3 
+* Pertama saya buat struct untuk filename dan extensionnya
+* Lalu saya mengambil extensionnya di line 20-24
+* Pada line 26-44, saya membuat fungsi agar mengecek ekstensionnya jika ada yang sama maka dibiarkan tetapi jika belum ada maka dibuat baru
+* Lalu pada main, pertama saya buat yang -f terlebih dahulu. Yaitu mengecek satu atau lebih file setelah itu mengecek apakah ekstensi mereka sudah ada foldernya atau belum. Setelah itu masukkan file yang disebutkan ke dalam folder ekstensinya masing-masing
+* Lalu -d, tidak beda jauh dengan -f. Bedanya ia akan membuka folder yang diinginkan dahulu lalu lanjutannya sama(Mengecek ekstensi dan memindahkan sesuai ekstensi)
+* Setelah itu *, tidak beda jauh dengan -d. Bedanya ia tidak masuk direktori apapun melainkan memakai direktori letak program ini berada.
+* Setelah semua selesai print "All task finished, Program will now close..."
 
 ## Soal 4
 ### 4a
