@@ -28,6 +28,25 @@ kemudian melaukan loop sebanyak tread.Didalam loop terdapat fungsi pthread_creat
 ![printmatriks](https://user-images.githubusercontent.com/57948206/79039498-d8ae2f80-7c0b-11ea-9537-5b8716312fbe.png)
 
 -proses daiatas adalah mencetak hasil dari perkalian matriks yang dilakukan oleh fungsi mult.
+
+### 4b
+
+![key](https://user-images.githubusercontent.com/57948206/79040156-a94df180-7c10-11ea-822a-3254d391a931.png)
+
+-pada petunjuk soal menggunakan hasil perkalian matriks dari soal 4a menggunakan share memory.Pada proses diatas mengunakan angka unik yaitu 1400 dan melakukan proses write ke dalam share memory seperti pada program soal4a.c juga mendeklarasi angka unik 1400.
+-shmget() adalah System call untuk membuat suatu segmen shared memory  fungsi shmget kemudian menempelkan (meng-attach) kan memory tsb ke program dengan fungsi shmat.shmat() adalah System call untuk mendaftarkan segment shared memory ke dalam data space dari suatu proses.shmdt() adalah System call untuk melepaskan shared memory segment dari data space dari proses.  
+
+![4a](https://user-images.githubusercontent.com/57948206/79040580-aa345280-7c13-11ea-9334-e60f0b223d5b.png)
+
+pada proses diatas adalah mengambil hasil perkalian elemen matriks dari soal 4a kemudian dipindahkan ke array curr kemudian dicetak.
+
+![thread](https://user-images.githubusercontent.com/57948206/79040668-4d856780-7c14-11ea-8c85-bd527f3715ae.png)
+
+-pada proses create thread dan memanggil fungsi sumi untuk melakuan penjumlan elemen matriks dan kemudian dijointread
+
+![sumi](https://user-images.githubusercontent.com/57948206/79040667-4c543a80-7c14-11ea-8e96-cd95c77d4da1.png)
+
+untuk melakukan proses diatas menggunakan rumus penjumlahan aritmatika dan kemudian dicetak
 ### 4c
 -pertama membuat pipe jika hasilnya -1 maka akan gagal membuat pipe.
 -membuat anak proses jika hasilnya kurang dari nol maka gagal membuat proses anak
