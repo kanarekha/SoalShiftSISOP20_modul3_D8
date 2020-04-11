@@ -4,11 +4,31 @@
 
 05111740000169	MUHAMMAD FARHAN HAYKAL
 - [SoalShiftSISOP20_modul2_D08](#soalshiftsisop20modul2d08)
-	- [Soal 1](#soal-1)
+	- [Soal 2](#soal-2)
 	- [Soal 4](#soal-4)
 		- [4A](#4a)
 		- [4B](#4b)
 		- [4C](#4c)
+## Soal 2
+### Client
+* Pertama saya buat fungsi-fungsi untuk gamenya seperti: Display Message, Receive Attack, Play, Waiting Matchmaking, Game Loops
+* Lalu saya buat socketnya seperti di template
+* Lalu di dalam while saya buat dari awal game seperti login dan registernya
+* Sisanya saya mengisi seperti di template
+### Server
+* Pertama saya buat struktur untuk Account, Database, Connection, dan Room-nya
+* Lalu saya buat fungsi Err untuk output error; DatabseClose untuk menutup koneksi ke database; cfileexist untuk mengecek apakah filenya ada; DatabaseWrite untuk menulis ke database
+* Lalu pada line 76-105, saya membuat agar mengecek dulu apakah sudah ada databasenya atau belum; Kalau ada maka tulis ke databasenya berisi Account; Tetapi jika tidak ada maka keluar message error
+* Lalu saya buat fungsi register yaitu untuk memasukkan account baru ke database
+* Lalu saya buat fungsi register yaitu untuk mengecek account di database
+* Lalu ada fungsi AccountList untuk me-list account berdasarkan id, username, dan password
+* Saya buat fungsi GameLoops untuk melakukan looping game seperti attack dan game selesai
+* Setelah itu saya buat fungsi Room agar memasukkan user 1 dan user 2, jika semua sudah masuk maka jalani GameLoops
+* Lalu buat socket seperti yang ada di template
+* Di dalam while pertama saya masukkan cara kerja untuk register yaitu mengambil Username dan Password dari client dan jalankan fungsi Register
+* Lalu saya buat login, jika user memasukkan username dan password dengan benar maka print "Auth Success" dan lanjutkan ke fungsi AfterLogin, Tetapi jika gagal maka print "Auth Failed". Setelah itu tutup kembali databasenya
+* Sisanya saya copy dari template socket
+
 
 ## Soal 4
 ### 4a
